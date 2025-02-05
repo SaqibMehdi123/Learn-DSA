@@ -23,7 +23,7 @@ int main(){
         i += 1;
    }
 
-   cout << "Sum of numbers from " << i << " to " << n << " = " << sum << endl;
+   cout << "Sum of numbers from 1 to " << n << " = " << sum << endl;
 
     return 0;
 }
