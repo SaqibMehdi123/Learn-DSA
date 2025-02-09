@@ -21,7 +21,7 @@ int main(){
     cout << "Using while loop to print the pattern" << endl;
     int k = 0;
     while(k < num){
-        int l = 0;
+        int l = 0; // resets the value to 0 after each iteration
         while(l < num){
             cout << "* ";
             l++;
