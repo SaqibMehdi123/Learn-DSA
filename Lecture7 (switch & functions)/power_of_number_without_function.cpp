@@ -4,7 +4,11 @@ using namespace std;
 int main() {
 
     // performing the same operation multiple times without using the function
+    // this is not a good practice as our program is getting bulky and we are repeating the same code multiple times
+    // we should use functions to avoid this
     
+    // pow(a, b)
+
     int a, b;
     cout << "Enter the base: ";
     cin >> a;
