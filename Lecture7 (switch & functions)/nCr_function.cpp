@@ -1,24 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int nCr_function(int n, int r) {
-
-    int ans_n = 1;
-    int ans_r = 1;
-    int ans_n_r = 1;
-
+int factorial(int n) {
+    int fact = 1;
     for(int i = 1; i <= n; i++) {
-        ans_n = ans_n * i;
+        fact = fact * i;
     }
 
-    for(int i = 1; i <= r; i++) {
-        ans_r = ans_r * i;
-    }
+    return fact;
+}
 
-    int n_r = n - r;
-    for(int i = 1; i <= n_r; i++) {
-        ans_n_r = ans_n_r * i;
-    }
+int nCr_function(int n, int r) {
+    int ans_n = factorial(n);
+    int ans_r = factorial(r);
+    int ans_n_r = factorial(n - r);
 
     int result = ans_n / (ans_r * ans_n_r);
     return result;
