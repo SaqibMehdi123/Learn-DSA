@@ -5,8 +5,9 @@ int main() {
 
     // performing the same operation multiple times without using the function
     // this is not a good practice as our program is getting bulky and we are repeating the same code multiple times
+    // such type of code is not readable and also not maintainable
     // we should use functions to avoid this
-    
+
     // pow(a, b)
 
     int a, b;
