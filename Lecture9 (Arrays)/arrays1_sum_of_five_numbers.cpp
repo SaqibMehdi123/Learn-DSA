@@ -11,6 +11,8 @@ int main() {
 
     // using index we can access any element of the array
     // index starts from 0
+    // syntax to access an element: arr[index]
+    // e.g: arr[0], arr[1], arr[2], arr[3], arr[4]
 
     // a large number of values are stored in a single variable
     // to perform operation on large set of data
